@@ -28,7 +28,7 @@ const StartGameScreen = ({ onPickNumber }) => {
       Alert.alert(
         "Invalid number!",
         " Number has to be a number between 1 and 99",
-        [{ text: "Okay", style: "cancel", onPress: setEnteredNumber("") }]
+        [{ text: "Okay", style: "destructive", onPress: setEnteredNumber("") }]
       );
       return;
     }
