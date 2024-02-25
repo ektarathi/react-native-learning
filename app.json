@@ -4,6 +4,7 @@
     "slug": "react-native-learning",
     "version": "1.0.0",
     "orientation": "default",
+    "backgroundColor": "#4EA0C8",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
