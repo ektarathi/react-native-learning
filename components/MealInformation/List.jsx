@@ -2,7 +2,7 @@ import { View, Text, StyleSheet } from 'react-native';
 
 const List = ({ data }) => {
   return data.map((dataPoint) => (
-    <View key={dataPoint} style={styles.listItem}>
+    <View key={dataPoint} style={styles.listItem} aria-label="meal-details-list">
       <Text style={styles.itemText}>{dataPoint}</Text>
     </View>
   ));
