@@ -2,7 +2,7 @@ import { View, Text, StyleSheet } from 'react-native';
 
 const Subtitle = ({children}) => {
   return (
-    <View style={styles.subtitleContainer}>
+    <View style={styles.subtitleContainer} aria-label="subtitle-text">
       <Text style={styles.subtitle}>{children}</Text>
     </View>
   );
