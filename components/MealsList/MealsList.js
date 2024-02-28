@@ -18,7 +18,7 @@ const MealsList = ({ items }) => {
   };
 
   return (
-    <View style={styles.container}>
+    <View style={styles.container} aria-label="meals-list-items">
       <FlatList
         data={items}
         keyExtractor={(item) => item.id}

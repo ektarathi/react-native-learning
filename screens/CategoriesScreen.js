@@ -25,6 +25,7 @@ const CategoriesScreen = ({ navigation }) => {
       keyExtractor={(item) => item.id}
       renderItem={renderCategoryItem}
       numColumns={2}
+      aria-label="categories-screen"
     />
   );
 };
