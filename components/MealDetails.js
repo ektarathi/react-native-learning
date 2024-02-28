@@ -8,7 +8,7 @@ const MealDetails = ({
   textStyle,
 }) => {
   return (
-    <View style={[styles.details, style]}>
+    <View style={[styles.details, style]} aria-label="meal-information">
       <Text style={[styles.detailItem, textStyle]}>{duration}m</Text>
       <Text style={[styles.detailItem, textStyle]}>
         {complexity.toUpperCase()}
