@@ -39,7 +39,7 @@ const MealDetailsScreen = () => {
   }, [navigation, changeFavoriteStatusHandler]);
 
   return (
-    <ScrollView style={styles.rootContainer} aria-label="meal-details-list">
+    <ScrollView style={styles.rootContainer}>
       <Image style={styles.image} source={{ uri: selectedMeal.imageUrl }} />
       <Text style={styles.title}>{selectedMeal.title}</Text>
       <MealDetails
