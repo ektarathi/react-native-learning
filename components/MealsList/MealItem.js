@@ -33,6 +33,7 @@ const MealItem = ({
         android_ripple={{ color: "#ccc" }}
         style={({ pressed }) => (pressed ? styles.buttonPressed : null)}
         onPress={selectMealItemHandler}
+        aria-label="item-pressed"
       >
         <View style={styles.innerContainer}>
           <View>
